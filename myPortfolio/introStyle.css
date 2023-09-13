@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Josefin+Sans:ital,wght@0,400;0,700;1,300&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #014620;
+}
+
+#header-section {
+    display: none;
+}
+
+.heading {
+    font-size: 80px;
+    color: #ffbba6;
+    text-align: center;
+    margin: auto;
+    /* font-family: 'Bungee Inline', cursive; */
+    /* font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Manrope', sans-serif; */
+    font-family: 'Bungee Shade', cursive; 
+}
+
+.first-desc, .desc{
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f55200;
+    width: 1000px;
+    margin: auto;
+}
+
+.desc {
+    margin-top: 30px;
+}
+
+a {
+    color: #ffbba6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #977064;
+    transition: 0.2s;
+}
+
+.sub-desc {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f55200;
+    width: 1000px;
+    margin: auto;
+}
+
+/* CSS */
+
+.first-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+.button-74 {
+  background-color: #ffbba6;
+  border: 2px solid #422800;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #014620;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+  transition: 0.3s;
+}
+
+.button-74:hover {
+    transition: 0.3s;
+    font-size: 40px;
+}
+
+
+
+
